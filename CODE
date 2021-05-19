@@ -1,0 +1,10 @@
+import java.util.Scanner;
+
+public class LabProgram {
+   public static void main(String[] args) {
+      Scanner scnr = new Scanner(System.in);
+        double f = scnr.nextDouble();
+        double r = Math.pow(2, 1.0 / 12);
+        System.out.printf("%.2f %.2f %.2f %.2f %.2f\n", f, f * Math.pow(r, 1), f * Math.pow(r, 2), f * Math.pow(r, 3), f * Math.pow(r, 4));
+   }
+}
